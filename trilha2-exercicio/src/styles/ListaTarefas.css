@@ -1,0 +1,65 @@
+.lista-tarefas-conteiner ul {
+  margin-top: 30px;
+}
+
+.lista-tarefas-conteiner .input-tarefa {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.lista-tarefas-conteiner ul {
+  list-style-position: inside;
+}
+
+.lista-tarefas-conteiner ul li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bbt-remover-tarefa,
+.btt-tarefas-concluida,
+.btt-add-tarefa,
+.btt-del-tarefa {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.btt-add-tarefa {
+  background-color: #4caf50;
+  font-size: 16px;
+}
+.btt-del-tarefa {
+  background-color: #f44336;
+  font-size: 16px;
+}
+
+.bbt-remover-tarefa {
+  background-color: #f44336;
+  font-size: 10px;
+  position: fixed;
+  margin-top: -5px;
+  left: 140vh;
+}
+.btt-tarefas-concluida {
+  background-color: #008cba;
+  font-size: 10px;
+  position: fixed;
+  left: 113vh;
+}
