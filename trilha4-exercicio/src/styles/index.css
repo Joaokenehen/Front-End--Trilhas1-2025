@@ -1,0 +1,58 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Centralizar os componentes */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Menu de navegação */
+.home {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Links do menu */
+.home-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.home-link:hover {
+  background-color: #ddd;
+}
+
+/* Estilizando os componentes */
+.container {
+  margin-top: 100px; /* Para não ficar coberto pelo menu fixo */
+  text-align: center;
+}
